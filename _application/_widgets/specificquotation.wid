@@ -1,0 +1,119 @@
+
+
+<style>
+ 
+body {
+color:#333 !important;
+
+}
+
+</style> 
+
+<div class="container-fluid form-bg"  >	
+<?php $this->data = $this->urlData; 
+
+ //print_r($this->data);
+?>
+
+ 
+<div class="col-md-3 hidden-sm"></div>
+		<div class="col-md-6 col-sm-12" style="margin-top:50px;margin-bottom: 50px;">
+			<div  >
+			<div align="center" style="margin-bottom:20px;">
+								<h2 style="text-transform:uppercase;">Solicite seu orçamento</h2>
+                                <p style="color: #333 !important;">E tire todas as suas dúvidas </p>
+			</div>
+
+
+            <div class="panel panel-default">
+             <div class="panel-heading text-center"><b><?php echo strtoupper($this->quotitem[$this->data[0]]);?></b></div>
+             <div class="panel-body">
+             
+
+				<div class="bkg">
+					<form action="<?php echo HTTP_ADDRESS.'orcamento/enviar';?>"  method="POST"  class="form-horizontal" >
+ 
+
+
+					<div class="form-content">
+						<input type="hidden" name="class" value="1">
+						<input type="hidden" name="product" value="<?php echo $this->data[0];?>">
+
+
+
+						 <div class="form-group">
+                            <div class="col-sm-6">
+                                <label class="control-label" for="nome"><i class="zmdi zmdi-account"></i></label>
+                                <input name="nome" class="form-control" id="nome" placeholder="Nome" type="text">
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="control-label" for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input name="email" class="form-control" id="email" placeholder="Email" type="email">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="telefone"><i class="zmdi zmdi-phone"></i></label>
+                                <input name="telefone" class="form-control" id="telefone" placeholder="Telefone" type="phone">
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <label class="control-label" for="estado"><i class="zmdi zmdi-map"></i></label>
+                                <input name="estado" class="form-control" id="estado" placeholder="Estado" type="text">
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="control-label" for="cidade"><i class="zmdi zmdi-pin"></i></label>
+                                <input name="cidade" class="form-control" id="cidade" placeholder="Cidade" type="text">
+                            </div>
+                        </div>
+
+
+
+
+
+						<div class="form-group">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="mensagem"><i class="zmdi zmdi-edit"></i></label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Sua mensagem"></textarea>
+                            </div>
+                        </div>
+
+                            <div class="col-sm-6" align="left">
+                                <button type="submit" name="callme" value="1" class="btn btn-default">Ligue para mim</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="submit" name="mailme" value="1" class="btn btn-default">Me envie por E-mail</button>
+                            </div>
+
+
+
+                        <div class="clearfix">
+ 
+                        </div>
+
+ 
+                         
+                           
+                         
+ 
+					</div>
+					</form>
+				</div>
+
+             
+             
+             </div>
+            </div>
+
+
+
+			</div>
+			</div>
+<div class="col-md-3 hidden-sm"></div>
+</div>

@@ -1,0 +1,38 @@
+<div class="container-fluid" style="background-color:#333; color:#fff;">
+    <div class="row">
+        <div class="col-lg-12" style="min-height:150px;"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1 col-md-2 col-lg-3"></div>
+
+        <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+            <div class="card" style="padding:20px;">
+                <div class="text-center">
+                <?php $this->loadImg('logo.png',null,'margin-bottom:15px;'); ?>
+                </div>
+                <form action="<?php echo HTTP_ADDRESS;?>admin/logon" method="POST">
+                                            <div class="form-group">
+                                                <label>Login</label>
+                                                <input type="text" name="login" id="login" class="form-control" 
+                                                 value="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Senha</label>
+                                                <input type="password" name="password" id="password" class="form-control" 
+                                                 value="">
+                                            </div>
+                                            <div class="clearfix">
+                                            <button type="submit" class="btn btn-info btn-fill pull-right">Entrar</button>
+                                            </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-sm-1 col-md-2 col-lg-3"></div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-12" style="min-height:150px;"></div>
+    </div>
+</div>

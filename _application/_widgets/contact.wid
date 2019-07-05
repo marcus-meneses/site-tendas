@@ -1,0 +1,95 @@
+<div id="contato" class="container-fluid">
+
+<div class="map-contacts">
+	<div id="googleMap" style="position: relative; overflow: hidden;">
+
+	</div>
+</div>
+<div class="our-contact-us-area bg-white">
+            <div class="container">
+                <div class="contact-wrap ptb-100 bg-white xtb-60">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 col-sm-5 col-xs-12">
+                            <div class="tf-contuct-us">
+                                <div class="contact-logo" align="center">
+                                   <?php $this->loadImg('logo.png',null,'margin-bottom:15px;'); ?>
+                                </div>
+                                <p class="con-pra">Dúvidas ou sugestões? A tendas & cia quer ouvir o que vc tem a dizer. Entre em contato conosco!</p>
+                                <!--Start Single Address Area -->
+                                <div class="single-address-area">
+                                    <div class="address-icon" style="margin-top:-5px;">
+                                        <i class="zmdi zmdi-pin"></i>
+                                    </div>
+                                    <div class="address-right">
+                                        <p>Av.Sonnemberg, Qd. 123, lt. Área 2, 
+                                         Cidade Jardim, Goiânia - GO</p>
+                                    </div>
+                                </div>
+                                <!--End Single Address Area -->
+                                <!--Start Single Address Area -->
+                                <div class="single-address-area">
+                                    <div class="address-icon" style="margin-top:-5px;">
+                                        <i class="zmdi zmdi-phone"></i>
+                                    </div>
+                                    <div class="address-right">
+                                        <p><a href="phone:+55623233-0952">(62)3233-0952</a></p>
+                                       
+                                    </div>
+                                </div>
+                                <!--End Single Address Area -->
+                                <!--Start Single Address Area -->
+                                <div class="single-address-area hidden-xs hidden-md hidden-lg hidden-sm">
+                                    <div class="address-icon" style="margin-top:-5px;">
+                                        <i class="zmdi zmdi-email"></i>
+                                    </div>
+                                    <div class="address-right">
+                                        <p><a href="mailto:www.yourmail.com">contato@tendasecia.com.br</a></p>
+                                    </div>
+                                </div>
+                                <!--End Single Address Area -->
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2 col-sm-7 col-xs-12">
+                            <div class="contact-form-area">
+                                <h1 class="cont-title">Entre em contato</h1>
+                                <div class="cx-contact-form">
+                                    <form id="contact-form" class="contact-form" action="mail.php" method="POST">
+                                    <!--Start Single Input -->
+                                        <div class="single-contact-input email">
+                                            <h4 class="contact-input-title">Nome</h4>
+                                            <input name="name" type="text">
+                                        </div>
+                                        <!--End Single Input -->
+                                        <!--Start Single Input -->
+                                        <div class="single-contact-input email">
+                                            <h4 class="contact-input-title">Email</h4>
+                                            <input name="email" type="email">
+                                        </div>
+                                        <!--End Single Input -->
+                                        <!--Start Single Input -->
+                                        <div class="single-contact-input phone">
+                                            <h4 class="contact-input-title">Telefone</h4>
+                                            <input name="phone" type="text">
+                                        </div>
+                                        <!--End Single Input -->
+                                        <!--Start Single Input -->
+                                        <div class="single-contact-input Massage">
+                                            <h4 class="contact-input-title">Mensagem</h4>
+                                            <textarea name="message" placeholder="Sua Mensagem" id="" style="width:100%;"></textarea>
+                                        </div>
+                                        <!--End Single Input -->
+                                        <div class="submit-btn">
+                                            <button type="submit" class="sub-btn">Enviar</button>
+                                        </div>
+                                        <!--End Single Input -->
+                                    </form>
+                                    <p class="form-messege"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>

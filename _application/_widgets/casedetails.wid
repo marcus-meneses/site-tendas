@@ -1,0 +1,46 @@
+
+
+
+<div class="container-fluid form-bg"  >	
+<div class="row">
+	<div class="col-md-3 hidden-sm hidden-xs col-lg-2"></div>
+		<div class="col-md-6 col-sm-12 col-lg-8" style="margin-top:50px;margin-bottom: 10px;">
+			<div>
+				<div align="center" style="margin-bottom:10px;">
+				<h2 style="text-transform:uppercase;"><?php echo $this->casesdata[$this->data[0]]['nome']; ?> </h2>
+                <p style="color: #333 !important;" style="margin-bottom:5px!important;">Detalhes do projeto</p>
+				</div>
+			</div>
+		</div>
+	<div class="col-md-3 hidden-sm hidden-xs col-lg-2"></div>
+</div>
+
+    <div class="row">
+		<div class="hidden-xs hidden-sm col-md-1 col-lg-2"></div>
+	    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 text-justify aboutie">
+        <img id="showcase" class="img-responsive" style="min-width:100%;" 
+            src="<?php $this->publicFile('/images/cases/'.$this->data[0].'.jpg') ;?>">
+         <?php echo $this->casesdata[$this->data[0]]['texto']; ?> 
+
+
+    <div class="col-sm-12 col-lg-12 text-center" align="center" style="margin-top:50px;">
+	
+		 <a class="btn btn-danger btn-lg" 
+		 href="<?php echo HTTP_ADDRESS;?>orcamento/rapido" 
+		 style="display: inline-block; padding-left:15px; padding-right:15px;text-transform:uppercase; ">
+		 Clique aqui e faça seu orçamento online!</a>
+
+	</div>
+
+
+        </div>
+	    <div class="hidden-xs hidden-sm col-md-1 col-lg-2"></div>
+
+
+
+    </div>
+
+
+</div>
+
+

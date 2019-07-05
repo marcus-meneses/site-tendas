@@ -1,0 +1,89 @@
+        <!-- Start of Slider Area -->
+        <div id="tf-slider" class="tf-slider-area">
+            <div class="tf-sliders slider-owl-active">
+                <!-- Start Single Slider Area -->
+                <div class="slider-area" data-black-overlay="2"
+                  style="background: rgba(0, 0, 0, 0) url('<?php $this->publicFile( 'images/carousel/home.jpg' ); ?>') no-repeat scroll right center / cover ;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content">
+                                    <div class="slider-content-innner text-white">
+                                        <h1 style="text-shadow: 2px 2px 20px #000000;">Tendas & Companhia</h1>
+                                        <h3 style="text-shadow: 2px 2px 16px #000000;">15 anos de mercado. Estrutura moderna.</h3>
+                                        <p> </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Single Slider Area --> 
+
+                <!-- Start Single Slider Area -->
+                <div class="slider-area" data-black-overlay="0"
+                  style="background: rgba(0, 0, 0, 0) url('<?php $this->publicFile( 'images/carousel/promobanner.jpg' ); ?>') no-repeat scroll right center / cover ;">
+                   <a href="<?php echo HTTP_ADDRESS;?>home/produto/3/6x3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content">
+                                    <div class="slider-content-innner text-white">
+                                         
+                                       
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <!--End Single Slider Area --> 
+
+
+
+
+
+
+
+                <!-- Start Single Slider Area -->
+                <div class="slider-area" data-black-overlay="6"
+                  style="background: rgba(0, 0, 0, 0) url('<?php $this->publicFile( 'images/carousel/galpao.jpg' ); ?>') no-repeat scroll right center / cover ;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content">
+                                    <div class="slider-content-innner text-white">
+                                        <h1>Galpão Lonado:</h1>
+                                        <h3>Ideal para alojamentos e armazenagem.</h3>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Single Slider Area --> 
+                <!-- Start Single Slider Area -->
+                <div class="slider-area" data-black-overlay="6"
+                  style="background: rgba(0, 0, 0, 0) url('<?php $this->publicFile( 'images/carousel/tencionada.jpg' ); ?>') no-repeat scroll right center / cover ;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content">
+                                    <div class="slider-content-innner text-white">
+                                        <h1>Projetos especiais:</h1>                                        
+                                        <h3>A Tendas & Cia pode realizar o projeto do seu evento.</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Single Slider Area -->                 
+            </div>
+        </div>
+        <!-- End of Slider Area --> 

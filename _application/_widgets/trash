@@ -1,0 +1,99 @@
+
+ <header id="header-content">
+            <!-- Start Header Top -->
+
+
+
+            <div   id="sticky-header-with-topbar" class="header-top-area bg-theme">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <ul class="header-left">
+                                <li style="margin-right:"><nobr>Ligue agora :(62) 3233-0952&nbsp;&nbsp;&nbsp;</nobr></li>
+                                <li><a href="mailto:info@gmail.com" target="_top">email@tendasecia.com.br</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <div class="header-right">
+                                <ul class="social-icon">
+                                    <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                                
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Top -->
+
+
+
+            <!-- Start of mainmenu area -->
+            <div  class="header-bottom-area bg-white height-100  transparent-header hidden-xs hidden-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="logo f-left sm-center">
+                                <a href="index.html">
+                                 <?php $this->loadImg('logo.png'); ?>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+
+                            <div class="mainmenu-container">
+                                <ul class="main-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="sobre_nos.html"><nobr>sobre nós</nobr></a></li>
+                                    <li><a href="produtos.html">Produtos</a></li>
+                                    <li ><a href="cases.html">Cases</a></li>
+                                   
+                                    <li><a href="contato.html">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Mobile-menu-area start -->
+            <div class="mobile-menu-area hidden-md hidden-lg">
+                <div class="container">
+                <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                        <div class="logo f-left sm-center">
+                          <?php $this->loadImg('logo.png'); ?>
+                        </div>
+                        </div>
+                </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+
+
+                            <div class="mainmenu-container">
+                                <ul class="main-menu">
+                                    <li><a href="index.html">Home</a> </li>
+                                    <li><a href="sobre_nos.html"><nobr>sobre nós</nobr></a></li>
+                                    <li><a href="produtos.html">Produtos</a></li>
+                                    <li ><a href="cases.html">Cases</a></li>
+                                    <li><a href="contato.html">Contato</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile-menu-area end --> 
+
+
+
+        </header>

@@ -1,0 +1,38 @@
+    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="http://voastudio.tech" target = "_new" class="simple-text">
+                    VOA DASHBOARD
+                </a>
+            </div>
+
+            <ul class="nav">
+
+                <li class="active">
+                    <a href="<?php echo HTTP_ADDRESS;?>admin/orcamentos">
+                       <i class="zmdi zmdi-assignment-o zmdi-hc-2x"></i>
+                        <p>Orcamentos</p>
+                    </a>
+                </li>
+
+ 
+
+                <li class="active">
+                    <a href="<?php echo HTTP_ADDRESS;?>admin/logout">
+                       <i class="zmdi zmdi-close zmdi-hc-2x"></i>
+                        <p>Sair</p>
+                    </a>
+                </li>
+                 
+
+            </ul>
+    	</div>
+    </div>

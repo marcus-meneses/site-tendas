@@ -1,0 +1,221 @@
+
+    <nav class="navbar navbar-default navbar-fixed-top hidden-xs" style="border:none;margin:none;padding:none;">
+            <div class="header-top-area bg-theme">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <ul class="header-left">
+                                <li style=""><nobr>&nbsp;&nbsp;&nbsp;Ligue agora :(62) 3233-0952&nbsp;&nbsp;&nbsp;</nobr></li>
+                                <li><a href="mailto:info@gmail.com" target="_top">&nbsp;&nbsp;&nbsp;contato@tendasecia.com.br&nbsp;&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <div class="header-right">
+                                <ul class="social-icon">
+                                    <li><a href="https://www.facebook.com/tendasecia/"><i class="zmdi zmdi-facebook"></i></a></li>
+                              
+                                    <li><a href="https://www.instagram.com/tendaseciagoiania/"><i class="zmdi zmdi-instagram"></i></a></li>
+                                
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+
+
+
+
+<?php if (1>2) { ?>
+        <nav class="navbar navbar-default navbar-fixed-bottom hidden-sm hidden-md hidden-lg " style="border:none;margin:none;padding:none;">
+            <div class="header-top-area bg-theme">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <ul class="header-left">
+                                <li style=""><nobr>still&nbsp;&nbsp;&nbsp;Ligue agora :(62) 3233-0952&nbsp;&nbsp;&nbsp;</nobr></li>
+                                <li><a href="mailto:info@gmail.com" target="_top">&nbsp;&nbsp;&nbsp;contato@tendasecia.com.br&nbsp;&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                            <div class="header-right">
+                                <ul class="social-icon">
+                                    <li><a href="https://www.facebook.com/tendasecia/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    
+                                    <li><a href="https://www.instagram.com/tendaseciagoiania/"><i class="zmdi zmdi-instagram"></i></a></li>
+                                
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </nav>
+<?php } ?>
+
+
+<div class="container-fluid" style="background-image: url('http://localhost/tendas/_public/_front/main/img/bkg.png');">
+<div class="container" >
+
+	<div class="row hidden-xs hidden-sm hidden-md" >
+
+	        <!-- Start of mainmenu area -->
+            <div  class="header-bottom-area  transparent-header hidden-xs hidden-sm" >
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-md-3">
+
+
+                            <div class="logo f-left">
+                                <a href="<?php echo HTTP_ADDRESS;?>">
+                                 <?php $this->loadImg('logo.png',null,'margin-bottom:15px;'); ?>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+
+                            <div class="mainmenu-container lg-center" style="margin-top:20px;">
+                                <ul class="main-menu bg-white" style="justify-content: center;color:#333;background-color: transparent !important;">
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>">Home</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#produtos">Produtos</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#sobrenos"><nobr>sobre nós</nobr></a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>home/index#cases">Cases</a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>orcamento/rapido">Orçamento</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>#contato">Contato</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+	</div>
+
+	<div class="row hidden-xs hidden-sm hidden-lg">
+
+
+ <!-- Start of mainmenu area -->
+            <div  class="header-bottom-area transparent-header hidden-xs hidden-sm" style="color:#333;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3" style="align:right;">
+
+
+                            <div class="logo">
+                                <a href="index.html">
+                                 <?php $this->loadImg('logo.png',null,'margin-bottom:15px;'); ?>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+
+                            <div class="mainmenu-container lg-center" style="margin-top:20px;">
+                                <ul class="main-menu bg-white" style="justify-content: center;color:#333;background-color: transparent !important;">
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>">Home</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#produtos">Produtos</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#sobrenos"><nobr>sobre nós</nobr></a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>home/index#cases">Cases</a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>orcamento/rapido">Orçamento</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>#contato">Contato</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+	</div>
+
+	<div class="row hidden-xs hidden-md hidden-lg">
+
+	<div class="row sm-center" >
+	<?php $this->loadImg('logo.png',null,'margin-top:15px;'); ?>
+	</div>
+	<div class="row">
+							<div class="mainmenu-container" >
+                                <ul class="main-menu bg-white" style="justify-content: center;color:#333;background-color: transparent !important;">
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>">Home</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#produtos">Produtos</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>home/index#sobrenos"><nobr>sobre nós</nobr></a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>home/index#cases">Cases</a></li>
+                                    <li ><a href="<?php echo HTTP_ADDRESS;?>orcamento/rapido">Orçamento</a></li>
+                                    <li><a href="<?php echo HTTP_ADDRESS;?>#contato">Contato</a></li>
+
+                                </ul>
+                            </div>
+    </div>
+
+	</div>
+
+    <div class="row hidden-sm hidden-md hidden-lg">
+
+
+
+    <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg " style="margin:none;padding:none;border: 1px solid #ccc;">
+
+
+
+
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 text-left">
+             
+                    <button name="popper" id="popper" type="button" class="navbar-toggle  collapsed" aria-expanded="false" style="margin-top: 20px;">
+                        <span class="sr-only">Navegação</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+
+             <?php $this->loadImg('logo.png',null,'margin-top:5px; margin-bottom: 5px; height:60px; width: auto;'); ?>
+
+            </div>
+
+
+<style>
+.supmenu > a  {
+    text-transform: uppercase;
+}
+.supmenu > a:hover {
+    color: #14b1bb !important;
+    background-color: #ddd;
+    
+}
+</style>
+             
+    <div class="row"  id="collapse-1" style="display: none; border: 1px solid #ccc; " >
+                            <div   class="col-xs-12 bg-white supmenu text-center" style="" >
+                                
+                                     <a href="<?php echo HTTP_ADDRESS;?>" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important; font-size: 18px;">Home</a> 
+                                     <a href="<?php echo HTTP_ADDRESS;?>#produtos" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important;font-size: 18px;">Produtos</a> 
+                                     <a href="<?php echo HTTP_ADDRESS;?>#sobrenos" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important;font-size: 18px;"><nobr>sobre nós</nobr></a> 
+                                     <a href="<?php echo HTTP_ADDRESS;?>#cases" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important;font-size: 18px;">Cases</a> 
+<a href="<?php echo HTTP_ADDRESS;?>orcamento/rapido" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important;font-size: 18px;">Orçamento</a> 
+                                     <a href="<?php echo HTTP_ADDRESS;?>#contato" style="padding:10px;padding-left: 15px; padding-right: 15px;display: block !important;font-size: 18px;">Contato</a> 
+                               
+                            </div>
+    </div>
+
+
+
+    </nav>
+
+
+
+
+    </div>
+
+
+</div>
+</div>
+
+

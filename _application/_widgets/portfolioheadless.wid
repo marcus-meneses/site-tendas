@@ -1,0 +1,337 @@
+ 
+ <style>
+
+.callbutton {
+color:#fff !important;
+background-color:#d9534f !important;
+}
+
+.callbutton:hover {
+color:#fff !important;
+background-color:#9a1e14 !important;
+}
+
+
+</style> 
+ 
+ <!-- Start of Portfolio Area -->
+        <section id = "produtos" class="tf-portfolio-wrap bg-white ptb-100 xtb-60">
+            <div class="container">
+  
+                <div class="tf-portfolio-row">
+                    <div class="tf-portfolio-container clearfix">
+
+
+
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 casa eventos">
+<div class="tf-portfolio" data-title-position="left, top" style="align-content: center; display: inline-block; width: 100%;">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;display: contents;">
+   <a href="<?php echo HTTP_ADDRESS;?>home/produto/1" >
+   <?php $this->loadPublicImg('images/portfolio/tencionada.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Tenda Tensionada</h4>
+      <p class="card-text">Tenda desmontável com cobertura estilizada para eventos ao ar livre.</p>
+
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/1" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/1" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+
+   </div>
+</div>
+</div>
+</div>
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 casa eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/2" >
+   <?php $this->loadPublicImg('images/portfolio/piramidal_aberta.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Tenda Piramidal</h4>
+      <p class="card-text">Tenda desmontável com cobertura piramidal. Para coberturas em geral.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/2" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/2" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 hobby casa trabalho">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/3" >
+   <?php $this->loadPublicImg('images/portfolio/sanfonada.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Tenda Sanfonada</h4>
+      <p class="card-text">Tenda sanfonada. Dobrável. Especial para seu trabalho, stands e hobbies.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/3" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/3" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 html trabalho eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/4" >
+   <?php $this->loadPublicImg('images/portfolio/galpao.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Galpão Lonado</h4>
+      <p class="card-text">Armazenagem, alojamento e coberturas semi-permanentes. Instalação facilitada.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/4" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/4" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 html eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/5" >
+   <?php $this->loadPublicImg('images/portfolio/piramidal_cristal.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Tenda Cristal</h4>
+      <p class="card-text">Tenda específica para eventos especiais. Cobertura translúcida.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/5" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/5" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/6" >
+   <?php $this->loadPublicImg('images/portfolio/bolha.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Tenda Bolha</h4>
+      <p class="card-text">Mais requinte para seu evento. Expansível. Formatos especiais.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/6" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/6" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/7" >
+   <?php $this->loadPublicImg('images/portfolio/barricada.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Barricada Antiavalanche</h4>
+      <p class="card-text">Contenção de multidões. Limitação de espaços. Alta resistência.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/7" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/7" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/8" >
+   <?php $this->loadPublicImg('images/portfolio/gradil.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Barricada gradil</h4>
+      <p class="card-text">Guias de acesso. Alta durabilidade. Fácil instalação. Modular.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/8" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/8" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/9" >
+   <?php $this->loadPublicImg('images/portfolio/tablado.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Piso Tablado</h4>
+      <p class="card-text">Compensado naval. Fácil instalação. Nivelamento perfeito. Modular.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/9" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/9" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/10" >
+   <?php $this->loadPublicImg('images/portfolio/balcao.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Balcão</h4>
+      <p class="card-text">Alumínio reforçado. Dobrável. Fácil armazenagem e instalação.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/10" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/10" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/11" >
+   <?php $this->loadPublicImg('images/portfolio/camarote.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Piso elevado/Camarote</h4>
+      <p class="card-text">Nivelamento perfeito. Montagem customizada. Divisão espacial.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/11" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/11" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li> 
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="pro-item nopadding col-md-4 col-sm-6 col-lg-4 col-xs-12 hobby casa trabalho eventos">
+<div class="tf-portfolio" data-title-position="left, top">
+<div class="card" style="width: 20rem;border: 1px solid #ccc; padding:10px;margin-bottom: 20px;">
+       <a href="<?php echo HTTP_ADDRESS;?>home/produto/12" >
+   <?php $this->loadPublicImg('images/portfolio/container.jpg', 'card-img-top', null ); ?>
+   </a>
+   <div class="card-block" style="margin-top:10px;margin-bottom:5px;">
+      <h4 class="card-title">Módulos para Habitação</h4>
+      <p class="card-text">Locação e venda. Personalizados e exclusivos, de acordo com o projeto.</p>
+      <ul   class="tf-port-filter-nav">
+         <li data-filter=""  style="padding: 0px"> 
+         <a href="<?php echo HTTP_ADDRESS;?>home/produto/12" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%">Saiba mais</a>
+         </li>
+
+         <li data-filter="" style="padding: 0px">
+         <a href="<?php echo HTTP_ADDRESS;?>orcamento/especifico/12" style="display: inline-block; padding-left:15px; padding-right:15px; width:100%" class="callbutton">Orçamento</a>
+         </li>
+      </ul>
+   </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Portfolio Area -->

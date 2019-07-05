@@ -1,0 +1,92 @@
+
+<div class="container-fluid aboutcon" style="background: url('<?php $this->publicFile('/images/aboutus/home.jpg') ;?>')">
+<div class="container"> 
+<div class="row hidden-sm hidden-md hidden-lg">
+<div class="col-xs-12" style="min-height:30px;"> </div>
+</div>
+    <div class="row"> 
+        <div class="col-md-8 col-md-offset-2 col-xs-12  col-xs-offset-0 aboutie">
+        <h1>A História de uma empresa líder de mercado</h1>
+
+        <h3>Qualidade e versatilidade são os diferenciais que 
+        fazem com que a nossa empresa seja um sucesso no mercado 
+        nacional de estruturas e coberturas, há mais de 15 anos.</h3>
+
+        <p>Para nós, ser uma grande empresa é acreditar no constante 
+        desenvolvimento de produtos e serviços, por esta razão 
+        investimos em tecnologia de ponta para aprimorar os 
+        processos de produção, mas sem perder a tradição e 
+        confiabilidade que conquistamos ao longo dos anos.</p>
+
+        <p>Tudo isso comprova que ao contratar a Tendas & Cia. 
+        o cliente tem a qualidade de um grande produto e a 
+        garantia de uma grande marca</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container-fluid aboutcon" style="background: url('<?php $this->publicFile('/images/aboutus/estrutura.jpg') ;?>')">
+<div class="container"> 
+<div class="row hidden-sm hidden-md hidden-lg">
+<div class="col-xs-12" style="min-height:30px;"> </div>
+</div>
+    <div class="row struspc"> 
+        <div class="col-md-5 strucie">
+        <h1>ESTRUTURA MODERNA E COMPLETA</h1>
+        </div>
+        <div class="col-md-7 strucie">
+        <h3>15 anos de excelência</h3>
+
+
+        <p>Com capacidade produtiva e logística, a estrutura interna da 
+            Empresa Tendas e Companhia permite que tenhamos sempre grande 
+            quantidade de produto acabado a pronta entrega em estoque. 
+            Com uma frota hoje composta por mais de 15 veiculos entre carretas, 
+            caminhões trucados e veiculos de pequeno porte, podemos chegar às mais 
+            distantes regiões do país com rapidez e segurança na entrega.</p>
+
+        <p>Investimentos constantes no parque fabril da empresa, fazem com que 
+            possamos contar com equipamentos novos e modernos - o que nos 
+            proporciona um contínuo aprimoramento na fabricação do produto final.</p>
+
+         
+        </div>
+        <div class="row"> 
+        <div class="col-md-12" style="margin-bottom:10vw"><img src="<?php $this->publicFile('/images/aboutus/struc-fg.jpg') ;?>" class="img-responsive"></div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid aboutcon" style="background: url('<?php $this->publicFile('/images/aboutus/mvv.jpg') ;?>')">
+<div class="container"> 
+<div class="row hidden-sm hidden-md hidden-lg">
+<div class="col-xs-12" style="min-height:30px;"> </div>
+</div>
+    <div class="row struspc"> 
+        <div class="col-md-5 strucie">
+        <h1>Missão</h1>
+        <p>Oferecer sempre o melhor atendimento com presteza, agilidade e responsabilidade. Atendendo as necessidades do cliente através dos melhores produtos oferecidos, mão-de-obra especializada e principalmente confiabilidade na parceria que a empresa proporciona com total aporte logístico e capacidade produtiva.</p>
+        </div>
+        <div class="col-md-7 strucie">
+        <h3>Visão</h3>
+
+
+        <p>Se tornar a maior empresa em capacidade produtiva e tecnológica do mercado, com busca constante de novas tecnologias e desenvolvimento de novos produtos além do aprimoramento do mix já existente.</p>
+       <br><br>
+        <h3>Valores</h3>
+
+
+        <p>+ Compromisso e respeito com as pessoas<br>
+            + Transparência e honestidade<br>
+            + Tecnologia e inovação constantes</p>
+        
+
+         
+        </div>
+        
+    </div>
+</div>
+</div>
